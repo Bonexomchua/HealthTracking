@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xt+0F5FCVBlKkG1cLB2Pu9FkmIU2rX9ERbHh32JaCFo=",
+  "Source": "HealthTracking.App",
+  "BasePath": "_content/HealthTracking.App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

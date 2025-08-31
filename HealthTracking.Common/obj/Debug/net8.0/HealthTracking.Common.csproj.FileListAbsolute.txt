@@ -1,0 +1,14 @@
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\bin\Debug\net8.0\HealthTracking.Common.deps.json
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\bin\Debug\net8.0\HealthTracking.Common.dll
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\bin\Debug\net8.0\HealthTracking.Common.pdb
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.GeneratedMSBuildEditorConfig.editorconfig
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.AssemblyInfoInputs.cache
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.AssemblyInfo.cs
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.csproj.CoreCompileInputs.cache
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.dll
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\refint\HealthTracking.Common.dll
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.pdb
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\ref\HealthTracking.Common.dll
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\bin\Debug\net8.0\HealthTracking.Common.runtimeconfig.json
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.csproj.AssemblyReference.cache
+T:\Visual Studio Project\HealthTracking\HealthTracking.Common\obj\Debug\net8.0\HealthTracking.Common.genruntimeconfig.cache

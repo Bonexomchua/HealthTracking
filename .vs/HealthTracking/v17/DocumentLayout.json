@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "T:\\Visual Studio Project\\HealthTracking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|t:\\visual studio project\\healthtracking\\healthtracking.dal\\models\\healthtrackingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|solutionrelative:healthtracking.dal\\models\\healthtrackingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|t:\\visual studio project\\healthtracking\\healthtracking.dal\\models\\bodymetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|solutionrelative:healthtracking.dal\\models\\bodymetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|t:\\visual studio project\\healthtracking\\healthtracking.dal\\models\\mealdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|solutionrelative:healthtracking.dal\\models\\mealdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|t:\\visual studio project\\healthtracking\\healthtracking.dal\\models\\foodcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|solutionrelative:healthtracking.dal\\models\\foodcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|t:\\visual studio project\\healthtracking\\healthtracking.dal\\models\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA1D24F5-A859-478A-8FAB-BFAF7DD84DAC}|HealthTracking.DAL\\HealthTracking.DAL.csproj|solutionrelative:healthtracking.dal\\models\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MealDetail.cs",
+              "DocumentMoniker": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\MealDetail.cs",
+              "RelativeDocumentMoniker": "HealthTracking.DAL\\Models\\MealDetail.cs",
+              "ToolTip": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\MealDetail.cs",
+              "RelativeToolTip": "HealthTracking.DAL\\Models\\MealDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:02:00.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodCategory.cs",
+              "DocumentMoniker": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\FoodCategory.cs",
+              "RelativeDocumentMoniker": "HealthTracking.DAL\\Models\\FoodCategory.cs",
+              "ToolTip": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\FoodCategory.cs",
+              "RelativeToolTip": "HealthTracking.DAL\\Models\\FoodCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:01:55.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Exercise.cs",
+              "DocumentMoniker": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\Exercise.cs",
+              "RelativeDocumentMoniker": "HealthTracking.DAL\\Models\\Exercise.cs",
+              "ToolTip": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\Exercise.cs",
+              "RelativeToolTip": "HealthTracking.DAL\\Models\\Exercise.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:01:53.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BodyMetric.cs",
+              "DocumentMoniker": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\BodyMetric.cs",
+              "RelativeDocumentMoniker": "HealthTracking.DAL\\Models\\BodyMetric.cs",
+              "ToolTip": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\BodyMetric.cs",
+              "RelativeToolTip": "HealthTracking.DAL\\Models\\BodyMetric.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:01:50.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HealthTrackingContext.cs",
+              "DocumentMoniker": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\HealthTrackingContext.cs",
+              "RelativeDocumentMoniker": "HealthTracking.DAL\\Models\\HealthTrackingContext.cs",
+              "ToolTip": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\Models\\HealthTrackingContext.cs",
+              "RelativeToolTip": "HealthTracking.DAL\\Models\\HealthTrackingContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:58:02.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
