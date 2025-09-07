@@ -1,0 +1,17 @@
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\bin\Debug\net8.0\HealthTracking.DAL.deps.json
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\bin\Debug\net8.0\HealthTracking.DAL.runtimeconfig.json
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\bin\Debug\net8.0\HealthTracking.DAL.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\bin\Debug\net8.0\HealthTracking.DAL.pdb
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\bin\Debug\net8.0\HealthTracking.Common.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\bin\Debug\net8.0\HealthTracking.Common.pdb
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTr.A73450B6.Up2Date
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\refint\HealthTracking.DAL.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.pdb
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\HealthTracking.DAL.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.DLL\obj\Debug\net8.0\ref\HealthTracking.DAL.dll

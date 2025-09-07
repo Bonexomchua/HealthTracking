@@ -8,48 +8,11 @@ namespace HealthTracking.Common.Response
 {
     public class BaseRsp
     {
-
-        #region -- Properties --
-
-        public bool Success { get; private set; }
-        public string Code { get; set; }
-        public string Message
-        {
-            get
-            {
-                if (Success)
-                {
-                    return msg;
-                }
-                else
-                {
-                    return Dev ? msg : err;
-                }
-            }
-        }
-
-        public string Variant
-        {
-            get
-            {
-                return Success ? "success" : "error";
-            }
-        }
-        public string Title
-        {
-            get
-            {
-                return Success ? "Success" : titleError;
-            }
-        }
-
-        public static bool Dev { get; set; }
-
-        #endregion
-
         #region -- Methods --
 
-        //Constructor
+        /// <summary>
+        /// Initialize
+        /// </summary>
         public BaseRsp()
         {
             Success = true;
@@ -124,10 +87,80 @@ namespace HealthTracking.Common.Response
 
         #endregion
 
+        #region -- Properties --
+
+        /// <summary>
+        /// Success
+        /// </summary>
+        public bool Success { get; private set; }
+
+        /// <summary>
+        /// Error or success code
+        /// </summary>
+        public string Code { get; set; }
+
+        /// <summary>
+        /// Message
+        /// </summary>
+        public string Message
+        {
+            get
+            {
+                if (Success)
+                {
+                    return msg;
+                }
+                else
+                {
+                    return Dev ? msg : err;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Variant
+        /// </summary>
+        public string Variant
+        {
+            get
+            {
+                return Success ? "success" : "error";
+            }
+        }
+
+        /// <summary>
+        /// Title
+        /// </summary>
+        public string Title
+        {
+            get
+            {
+                return Success ? "Success" : titleError;
+            }
+        }
+
+        /// <summary>
+        /// Developer mode
+        /// </summary>
+        public static bool Dev { get; set; }
+
+        #endregion
+
         #region -- Fields --
 
+        /// <summary>
+        /// Error
+        /// </summary>
         private readonly string err;
+
+        /// <summary>
+        /// Title error
+        /// </summary>
         private readonly string titleError;
+
+        /// <summary>
+        /// Message
+        /// </summary>
         private string msg;
 
         #endregion

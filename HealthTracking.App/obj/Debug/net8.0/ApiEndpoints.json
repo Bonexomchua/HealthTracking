@@ -1,38 +1,404 @@
 [
   {
-    "ContainingType": "HealthTracking.App.Controllers.UserController",
-    "Method": "CreateUser",
-    "RelativePath": "api/User/create-user",
+    "ContainingType": "HealthTracking.APP.Controllers.AppUserController",
+    "Method": "GetExperts",
+    "RelativePath": "api/AppUser/experts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.AppUserController",
+    "Method": "GetUsernameByIds",
+    "RelativePath": "api/AppUser/get-username-by-ids",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userReq",
-        "Type": "HealthTracking.Common.Request.UserReq",
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HealthTracking.App.Controllers.UserController",
-    "Method": "FindUser",
-    "RelativePath": "api/User/find-user",
+    "ContainingType": "HealthTracking.APP.Controllers.AppUserController",
+    "Method": "UpdateCurrentSetting",
+    "RelativePath": "api/AppUser/update-current-setting",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.AppUserController",
+    "Method": "UploadAvatar",
+    "RelativePath": "api/AppUser/upload-avatar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "simpleReq",
-        "Type": "HealthTracking.Common.Request.SimpleReq",
+        "Name": "avatar",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.AppUserController",
+    "Method": "UploadVideo",
+    "RelativePath": "api/AppUser/upload-video",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "video",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.LoginDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HealthTracking.App.Controllers.WeatherForecastController",
+    "ContainingType": "HealthTracking.APP.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.BodyMetricCotroller",
+    "Method": "GetBodyMetric",
+    "RelativePath": "api/BodyMetricCotroller/get-body-metric",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "HealthTracking.Common.DTO.UserIdDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.BodyMetricCotroller",
+    "Method": "GetLatestMetric",
+    "RelativePath": "api/BodyMetricCotroller/get-body-metric-latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.BodyMetricCotroller",
+    "Method": "InitBodyMetric",
+    "RelativePath": "api/BodyMetricCotroller/init-bodymetric",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bdDTO",
+        "Type": "HealthTracking.Common.DTO.BodyMetricDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.ExerciseController",
+    "Method": "AddExercise",
+    "RelativePath": "api/Exercise/add-ex",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exercise",
+        "Type": "HealthTracking.Common.DTO.ExerciseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.ExerciseController",
+    "Method": "CreateActivity",
+    "RelativePath": "api/Exercise/create-activity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.ActivityDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.ExerciseController",
+    "Method": "GetLatestWeek",
+    "RelativePath": "api/Exercise/get-latest-week",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.ExerciseController",
+    "Method": "GetUserActivity",
+    "RelativePath": "api/Exercise/get-user-activity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.ExerciseController",
+    "Method": "GetAll",
+    "RelativePath": "api/Exercise/get-user-exercise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.ExerciseController",
+    "Method": "GetAlla",
+    "RelativePath": "api/Exercise/get-user-exercisea",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.ExerciseController",
+    "Method": "UpdateExercise",
+    "RelativePath": "api/Exercise/update-ex",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.MealController",
+    "Method": "GetAll",
+    "RelativePath": "api/Meal/all-meal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.UserIdDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.MealController",
+    "Method": "CreateMeal",
+    "RelativePath": "api/Meal/create-meal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.MealDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.SleepController",
+    "Method": "CreateSleep",
+    "RelativePath": "api/Sleep/create-sleep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.SleepDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.SleepController",
+    "Method": "GetAll",
+    "RelativePath": "api/Sleep/get-all-sleep",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.SleepController",
+    "Method": "GetLatestWeek",
+    "RelativePath": "api/Sleep/get-latest-week",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.UserSettingController",
+    "Method": "AddNewSetting",
+    "RelativePath": "api/UserSetting/create-setting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.UserSettingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.UserSettingController",
+    "Method": "GetAllSetting",
+    "RelativePath": "api/UserSetting/get-all-setting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.WaterController",
+    "Method": "AddWater",
+    "RelativePath": "api/Water/add-water",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "water",
+        "Type": "HealthTracking.Common.DTO.WaterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.WaterController",
+    "Method": "GetAll",
+    "RelativePath": "api/Water/get-all-water",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.WaterController",
+    "Method": "GetWater",
+    "RelativePath": "api/Water/get-current-water",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.WaterController",
+    "Method": "GetLatestWeek",
+    "RelativePath": "api/Water/get-latest-week",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.WaterController",
+    "Method": "UpdateWater",
+    "RelativePath": "api/Water/update-water",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthTracking.Common.DTO.WaterAmountDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthTracking.APP.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
     "HttpMethod": "GET",
@@ -41,7 +407,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HealthTracking.App.WeatherForecast, HealthTracking.App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HealthTracking.APP.WeatherForecast, HealthTracking.APP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

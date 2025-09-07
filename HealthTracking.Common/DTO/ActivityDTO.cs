@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HealthTracking.Common.DTO
+{
+    public class ActivityDTO
+    {
+        public string Name { get; set; }
+        public string UserId { get; set; }
+        public string AuthorId { get; set; }
+        public int SettingId { get; set; }
+        public string VideoUrl { get; set; }
+        public int Duration { get; set; }
+        public int Rate { get; set; }
+    }
+}

@@ -1,19 +1,19 @@
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.deps.json
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.dll
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.pdb
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.Common.dll
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.DAL.dll
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.Common.pdb
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.DAL.pdb
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.csproj.AssemblyReference.cache
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.GeneratedMSBuildEditorConfig.editorconfig
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.AssemblyInfoInputs.cache
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.AssemblyInfo.cs
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.csproj.CoreCompileInputs.cache
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTr.E640DDD2.Up2Date
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.dll
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\refint\HealthTracking.BLL.dll
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.pdb
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\ref\HealthTracking.BLL.dll
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.runtimeconfig.json
-T:\Visual Studio Project\HealthTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.deps.json
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.runtimeconfig.json
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.BLL.pdb
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.Common.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.DAL.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.Common.pdb
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\bin\Debug\net8.0\HealthTracking.DAL.pdb
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTr.E640DDD2.Up2Date
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\refint\HealthTracking.BLL.dll
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.pdb
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\HealthTracking.BLL.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\DO AN\HealTracking\HealthTracking.BLL\obj\Debug\net8.0\ref\HealthTracking.BLL.dll

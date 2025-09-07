@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.App\\HealthTracking.App.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.APP\\HealthTracking.APP.csproj": {}
   },
   "projects": {
-    "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.App\\HealthTracking.App.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.APP\\HealthTracking.APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.App\\HealthTracking.App.csproj",
-        "projectName": "HealthTracking.App",
-        "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.App\\HealthTracking.App.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.APP\\HealthTracking.APP.csproj",
+        "projectName": "HealthTracking.APP",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.APP\\HealthTracking.APP.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.App\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.APP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj": {
-                "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj"
               },
-              "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
-                "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj"
               }
             }
           }
@@ -57,19 +57,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -77,11 +89,11 @@
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.3, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -107,14 +119,14 @@
         }
       }
     },
-    "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj",
         "projectName": "HealthTracking.BLL",
-        "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.BLL\\HealthTracking.BLL.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.BLL\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -136,11 +148,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
-                "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj"
               },
-              "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\HealthTracking.DAL.csproj": {
-                "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\HealthTracking.DAL.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.DLL\\HealthTracking.DAL.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.DLL\\HealthTracking.DAL.csproj"
               }
             }
           }
@@ -160,19 +172,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.7, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -195,14 +219,14 @@
         }
       }
     },
-    "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
         "projectName": "HealthTracking.Common",
-        "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,19 +265,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -276,14 +304,14 @@
         }
       }
     },
-    "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\HealthTracking.DAL.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.DLL\\HealthTracking.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\HealthTracking.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.DLL\\HealthTracking.DAL.csproj",
         "projectName": "HealthTracking.DAL",
-        "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\HealthTracking.DAL.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.DLL\\HealthTracking.DAL.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.DAL\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.DLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -305,8 +333,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
-                "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj"
               }
             }
           }
@@ -326,19 +354,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

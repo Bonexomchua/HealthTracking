@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {}
   },
   "projects": {
-    "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
         "projectName": "HealthTracking.Common",
-        "projectPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\HealthTracking.Common.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "T:\\Visual Studio Project\\HealthTracking\\HealthTracking.Common\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\DO AN\\HealTracking\\HealthTracking.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,19 +50,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

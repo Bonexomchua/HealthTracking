@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace HealthTracking.App.Controllers
+namespace HealthTracking.APP.Controllers
 {
     [ApiController]
     [Route("[controller]")]

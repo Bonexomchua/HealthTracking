@@ -1,4 +1,4 @@
-namespace HealthTracking.App
+namespace HealthTracking.APP
 {
     public class WeatherForecast
     {

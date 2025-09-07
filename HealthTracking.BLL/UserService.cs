@@ -1,8 +1,6 @@
-﻿using HealthTracking.Common.BLL;
-using HealthTracking.Common.Request;
-using HealthTracking.Common.Response;
+﻿using HealthTracking.Common.DTO;
 using HealthTracking.DAL;
-using HealthTracking.DAL.Models;
+using HealthTracking.DAL.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,33 +9,33 @@ using System.Threading.Tasks;
 
 namespace HealthTracking.BLL
 {
-    public class UserService : GenericService<UserRepo, User>
+    public class UserService
     {
-        private UserRepo userRepo;
-        public UserService() {
-            userRepo = new UserRepo();
+        private readonly AppUserRep _rep;
+        public UserService(AppUserRep rep)
+        {
+            _rep = rep;
         }
 
-        public override SingleRsp Read(int id)
+        public async Task<AppUser> UpdateUserSetting(string userId, int settingId)
         {
-            var res = new SingleRsp();
-            res.Data = userRepo.Read(id);
-            return res;
+            return await _rep.UpdateUserSetting(settingId,userId);
         }
 
-        public SingleRsp CreateUser(UserReq user)
+        public async Task<List<UserDTO>> GetExperts()
         {
-            var res = new SingleRsp();
-            User userres = new User();
-            userres.Id = user.Id;
-            userres.Username = user.Username;
-            userres.Password = user.Password;
-            userres.FullName = user.FullName;
-            userres.Gender = user.Gender;
-            userres.Birthday = user.Birthday;
-            res = userRepo.CreateUser(userres);
-            Console.WriteLine("Da chay file service");
-            return res;
+            var experts = await _rep.GetExperts();
+            var result = experts.Select(u => new UserDTO
+            {
+                Id = u.Id,
+                UserName = u.UserName,
+                Email = u.Email,
+                FullName = u.FullName,
+                Gender = u.Gender,
+                Birthday = u.Birthday,
+                Avatar = u.AvatarUrl
+            }).ToList();
+            return result;
         }
     }
 }

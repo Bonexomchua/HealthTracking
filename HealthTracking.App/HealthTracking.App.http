@@ -1,6 +1,6 @@
-@HealthTracking.App_HostAddress = http://localhost:5113
+@HealthTracking.APP_HostAddress = http://localhost:5260
 
-GET {{HealthTracking.App_HostAddress}}/weatherforecast/
+GET {{HealthTracking.APP_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

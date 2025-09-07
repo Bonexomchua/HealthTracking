@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "xt+0F5FCVBlKkG1cLB2Pu9FkmIU2rX9ERbHh32JaCFo=",
-  "Source": "HealthTracking.App",
-  "BasePath": "_content/HealthTracking.App",
+  "Hash": "xbYFS0fYCuW1yCftegdx5qV9zMLm6TOUDYyGU0PVzK4=",
+  "Source": "HealthTracking.APP",
+  "BasePath": "_content/HealthTracking.APP",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
